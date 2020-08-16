@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/blaseball-stats/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/blaseball-stats/static/js/main.35964d22.chunk.js",
+    "main.js.map": "/blaseball-stats/static/js/main.35964d22.chunk.js.map",
+    "runtime-main.js": "/blaseball-stats/static/js/runtime-main.d38d4ed9.js",
+    "runtime-main.js.map": "/blaseball-stats/static/js/runtime-main.d38d4ed9.js.map",
+    "static/css/2.ee241de9.chunk.css": "/blaseball-stats/static/css/2.ee241de9.chunk.css",
+    "static/js/2.73e291a8.chunk.js": "/blaseball-stats/static/js/2.73e291a8.chunk.js",
+    "static/js/2.73e291a8.chunk.js.map": "/blaseball-stats/static/js/2.73e291a8.chunk.js.map",
+    "index.html": "/blaseball-stats/index.html",
+    "precache-manifest.9619831d65ab4351c98cc6b439698b4d.js": "/blaseball-stats/precache-manifest.9619831d65ab4351c98cc6b439698b4d.js",
+    "service-worker.js": "/blaseball-stats/service-worker.js",
+    "static/css/2.ee241de9.chunk.css.map": "/blaseball-stats/static/css/2.ee241de9.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/blaseball-stats/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.73e291a8.chunk.js.LICENSE.txt": "/blaseball-stats/static/js/2.73e291a8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d38d4ed9.js",
+    "static/css/2.ee241de9.chunk.css",
+    "static/js/2.73e291a8.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.35964d22.chunk.js"
+  ]
+}
