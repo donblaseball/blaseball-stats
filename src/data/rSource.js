@@ -16,11 +16,14 @@ for (const stat of gameStatsNames){
             y2+=gameStats[player][stat]*gameStats[player][stat]
             xy+=gameStats[player][stat]*playerStlats[player][stlat]
         }
-        values.push({
-            stat,
-            stlat,
-            r:(n*xy-x*y)/Math.sqrt((n*x2-x*x)*(n*y2-y*y))
-        })
+        var r=(n*xy-x*y)/Math.sqrt((n*x2-x*x)*(n*y2-y*y))
+        if(!!r){
+            values.push({
+                stat,
+                stlat,
+                r:r
+            })
+        }
     }
 }
 values.sort((a,b)=>{
