@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/blaseball-stats/precache-manifest.da9f6022196af2a9bbd98b2a1a38415a.js"
+  "/blaseball-stats/precache-manifest.f8a642e0a5f75d5454d60c24d7a8793e.js"
 );
 
 self.addEventListener('message', (event) => {
