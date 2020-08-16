@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bed1c3cb16f49bef20b4585fc2c87c6e",
+    "revision": "1d3ab27de2ca9eeb70d608193d5f27b2",
     "url": "/blaseball-stats/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blaseball-stats/static/css/2.ee241de9.chunk.css"
   },
   {
-    "revision": "2fcb399eda9cb3b23790",
+    "revision": "80777bd4d36a87188a35",
     "url": "/blaseball-stats/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blaseball-stats/static/js/2.129d5379.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fcb399eda9cb3b23790",
-    "url": "/blaseball-stats/static/js/main.d94a1d51.chunk.js"
+    "revision": "80777bd4d36a87188a35",
+    "url": "/blaseball-stats/static/js/main.04f59b5f.chunk.js"
   },
   {
     "revision": "4380247d9f54bd2a0f38",
