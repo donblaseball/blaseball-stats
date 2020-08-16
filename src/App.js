@@ -5,15 +5,17 @@ import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 
 
-const players = require('./data/players');
-const gameStats = require('./data/gameStats');
-const gameStatsNames=require('./data/gameStatsNames');
-const playerStlats=require('./data/playerStlats');
-const stlatNames=require('./data/stlatNames');
-const rSource=require('./data/rSource');
+import players from './data/players';
+import gameStats from './data/gameStats';
+import gameStatsNames from './data/gameStatsNames';
+import playerStlats from './data/playerStlats';
+import stlatNames from './data/stlatNames';
+import rSource from './data/rSource';
+
+
 export default () => {
-  const [stlat, setStlat] = React.useState("divinity");
-  const [stat, setStat] = React.useState("HOME_RUN");
+  const [stlat, setStlat] = React.useState(rSource[0].stlat);
+  const [stat, setStat] = React.useState(rSource[0].stat);
 
 
   const data = React.useMemo(
@@ -51,7 +53,7 @@ export default () => {
         return rSource.filter(x => x.stat==stat).map(x => {
           return {
             value: x.stlat,
-            label: x.stlat+" "+x.r
+            label: x.stlat+" r="+x.r
           }
         })
     },
@@ -62,7 +64,7 @@ export default () => {
         return rSource.filter(x => x.stlat==stlat).map(x => {
           return {
             value: x.stat,
-            label: x.stat+" "+x.r
+            label: x.stat+" r="+x.r
           }
         })
     },

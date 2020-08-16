@@ -1,2 +1,2 @@
-const gameStats=require('./gameStats');
-module.exports=Object.keys(gameStats[Object.keys(gameStats)[0]])
+import gameStats from './gameStats';
+export default Object.keys(gameStats[Object.keys(gameStats)[0]])
